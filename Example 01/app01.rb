@@ -20,7 +20,7 @@ loop do
       celsium = (fahrenheit - 32) * 5 / 9
     end
 
-    # выводим темпетартуру
+    # выводим температуру
     puts "#{format('%.2f', celsium)} C is #{format('%.2f', fahrenheit)} F"
   else
 
@@ -28,5 +28,6 @@ loop do
     puts 'Expecting a number followed by "C" or "F",'
     puts "so I don`t understand #{temperature}"
   end
+
   puts '-' * 50
 end
